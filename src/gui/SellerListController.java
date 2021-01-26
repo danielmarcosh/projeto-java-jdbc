@@ -118,7 +118,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 			controller.updateFormData();
 
 			Stage dialogStage = new Stage();
-			dialogStage.setTitle("Digite os dados do Departamento");
+			dialogStage.setTitle("Digite os dados do Vendedor");
 			dialogStage.setScene(new Scene(pane));
 			dialogStage.setResizable(false);
 			dialogStage.initOwner(parentStage);
@@ -172,7 +172,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 	}
 
 	private void removeEntity(Seller obj) {
-		Optional<ButtonType> result = Alerts.showConfirmation("Confirmação", "Tem certeza que deseja deletar?");
+		Optional<ButtonType> result = Alerts.showConfirmation("ConfirmaÃ§Ã£o", "Tem certeza que deseja deletar?");
 		if (result.get() == ButtonType.OK) {
 			if (service == null) {
 				throw new IllegalStateException("Service was null");
