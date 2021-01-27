@@ -47,6 +47,9 @@ git clone https://github.com/danielmarcosh/projeto-java-jdbc.git
 Main.java
 ```
 
+### Agradecimentos
+Os meus sinceros agradecimentos ao [Prof. Dr. Nelio Alves](http://educandoweb.com.br "Site do Prof. Dr. Nelio Alves"), por este excelente curso, no qual eu pude aprender muito e a praticar todos os conhecimentos durante o curso, desejo ao professor muito sucesso em sua carreira!
+
 # Autor
 
 Daniel Marcos Hermenegildo
